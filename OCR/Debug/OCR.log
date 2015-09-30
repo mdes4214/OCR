@@ -1,0 +1,16 @@
+﻿已經開始建置於 2015/10/1 上午 05:56:19。
+     1>節點 2 (Build 目標) 上的專案 "D:\Code\ComputerVision\OCR\OCR\OCR.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OCR.cpp
+         OCR.cpp
+     1>d:\code\computervision\ocr\ocr\ocr.cpp(81): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>d:\code\computervision\ocr\ocr\ocr.cpp(82): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+     1>d:\code\computervision\ocr\ocr\ocr.cpp(83): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code\ComputerVision\OCR\Debug\OCR.exe" /NOLOGO C:\opencv\build\x86\vc12\lib\opencv_core2411d.lib C:\opencv\build\x86\vc12\lib\opencv_calib3d2411d.lib C:\opencv\build\x86\vc12\lib\opencv_highgui2411d.lib C:\opencv\build\x86\vc12\lib\opencv_imgproc2411d.lib C:\opencv\tesseract\lib\libtesseract302.lib C:\opencv\tesseract\lib\libtesseract302d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Code\ComputerVision\OCR\Debug\OCR.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code\ComputerVision\OCR\Debug\OCR.lib" /MACHINE:X86 Debug\OCR.obj
+         OCR.vcxproj -> D:\Code\ComputerVision\OCR\Debug\OCR.exe
+     1>專案 "D:\Code\ComputerVision\OCR\OCR\OCR.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.03
